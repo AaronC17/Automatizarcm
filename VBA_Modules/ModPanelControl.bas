@@ -133,6 +133,10 @@ Public Sub Btn_ExportarManual()
     ExportarArchivoManualSincronizado
 End Sub
 
+Public Sub Btn_Simulacion()
+    EjecutarSimulacion
+End Sub
+
 Public Sub Btn_PrevisualizarCorreo()
     PrevisualizarCorreos
 End Sub
