@@ -294,6 +294,14 @@ Public Sub CrearBotonesPanel()
     btn.Characters.Text = "   Exportar Manual Sincronizado"
     topPos = topPos + btnHeight + spacing
     
+    ' === SECCIÓN: SIMULACIÓN ===
+    topPos = topPos + 15
+    
+    Set btn = ws.Buttons.Add(leftPos, topPos + 20, btnWidth, btnHeight)
+    btn.OnAction = "Btn_GenerarSimulacion"
+    btn.Characters.Text = "   Simulación Aspirantes vs. Matriculados"
+    topPos = topPos + 20 + btnHeight + spacing
+    
     ' === SECCIÓN: PROCESO COMPLETO ===
     topPos = topPos + 20
     
@@ -410,6 +418,13 @@ Public Sub CrearMenuAutomatizador()
     menuItem.Caption = "Exportar Manual Sincronizado"
     menuItem.OnAction = "Btn_ExportarManual"
     menuItem.FaceId = 3
+    
+    ' Simulación
+    Set menuItem = newMenu.Controls.Add(Type:=msoControlButton)
+    menuItem.BeginGroup = True
+    menuItem.Caption = "Simulación Aspirantes vs. Matriculados"
+    menuItem.OnAction = "Btn_GenerarSimulacion"
+    menuItem.FaceId = 2530
     
     ' Proceso completo
     Set menuItem = newMenu.Controls.Add(Type:=msoControlButton)

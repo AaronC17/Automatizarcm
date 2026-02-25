@@ -16,6 +16,7 @@ Sistema automatizado de gestión de matrícula que sincroniza datos entre SIGU y
 - ✅ **Envío masivo de correos** personalizados vía Outlook (recordatorios de documentos pendientes)
 - ✅ **Control de reenvío** (7 días mínimo entre recordatorios)
 - ✅ **Generación de reportes** ejecutivos en Excel con estadísticas y gráficos
+- ✅ **Simulación Aspirantes vs. Matriculados** con tasas de confirmación por carrera y sede
 - ✅ **Historial completo** de operaciones con auditoría
 - ✅ **Panel de control** con botones para operación simplificada
 
@@ -100,6 +101,7 @@ Use el botón **"EJECUTAR PROCESO COMPLETO"** para automatizar todo el flujo:
 | **Historial** | Registro de todas las operaciones |
 | **Configuracion** | Parámetros y rutas del sistema |
 | **Log_Correos** | Registro de correos enviados |
+| **Simulacion_Aspirantes** | Resumen de aspirantes vs. matriculados por carrera y sede |
 
 ## 🎨 Código de Colores
 
@@ -170,6 +172,9 @@ Los reportes incluyen:
 - `Btn_GenerarReporte` — Reporte de cambios
 - `Btn_ReporteCorreos` — Reporte de correos
 - `Btn_ReporteHistorial` — Reporte del historial
+
+### Simulación
+- `Btn_GenerarSimulacion` — Simulación aspirantes vs. matriculados (por carrera y sede)
 
 ## 🛠️ Tecnologías
 

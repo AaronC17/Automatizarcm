@@ -29,6 +29,7 @@ Public Const HOJA_PENDIENTES As String = "Pendientes"
 Public Const HOJA_HISTORIAL As String = "Historial"
 Public Const HOJA_CONFIG As String = "Configuracion"
 Public Const HOJA_LOG_CORREOS As String = "Log_Correos"
+Public Const HOJA_SIMULACION As String = "Simulacion_Aspirantes"
 
 ' ============================================================
 ' COLUMNAS CLAVE DEL ARCHIVO SIGU (ajustar según exportación real)
@@ -219,7 +220,8 @@ Public Sub InicializarHojasBase()
     Dim ws As Worksheet
     
     nombresHojas = Array(HOJA_PANEL, HOJA_SIGU, HOJA_MANUAL, HOJA_CRUCE, _
-                         HOJA_PENDIENTES, HOJA_HISTORIAL, HOJA_CONFIG, HOJA_LOG_CORREOS)
+                         HOJA_PENDIENTES, HOJA_HISTORIAL, HOJA_CONFIG, HOJA_LOG_CORREOS, _
+                         HOJA_SIMULACION)
     
     Application.ScreenUpdating = False
     

@@ -170,6 +170,7 @@ PASO 10 → Clic en "6. Generar Reporte de Cambios"
 | **Historial** | Registro de todas las operaciones realizadas |
 | **Configuracion** | Parámetros del sistema |
 | **Log_Correos** | Registro de correos enviados |
+| **Simulacion_Aspirantes** | Resumen de aspirantes vs. matriculados por carrera y sede |
 
 ---
 
@@ -207,6 +208,9 @@ PASO 10 → Clic en "6. Generar Reporte de Cambios"
 - `Btn_ReporteCorreos` — Genera reporte de correos enviados
 - `Btn_ReporteHistorial` — Genera reporte del historial
 - `Btn_ExportarManual` — Exporta el archivo manual sincronizado
+
+### Simulación:
+- `Btn_GenerarSimulacion` — Genera simulación de aspirantes vs. matriculados por carrera y sede
 
 ### Sistema:
 - `Btn_InicializarSistema` — Inicializa/reinicializa las hojas
