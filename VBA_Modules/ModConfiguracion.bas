@@ -454,6 +454,7 @@ Private Sub ConfigurarHojaPanel()
         ws.Range("A11").Value = "4. Revise la hoja 'Cruce_Datos' para ver los cambios detectados"
         ws.Range("A12").Value = "5. Ejecute la sincronización para actualizar el archivo manual"
         ws.Range("A13").Value = "6. Ejecute el envío de correos para notificar pendientes"
+        ws.Range("A14").Value = "7. Use 'Btn_Simulacion' para generar datos de muestra y simular el proceso"
         
         ws.Range("A15").Value = "RESUMEN:"
         ws.Range("A15").Font.Bold = True
